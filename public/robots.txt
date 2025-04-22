@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://syahrulfauzi.speechlessmind.com/sitemap.xml
