@@ -1,7 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Experiences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,68 +73,68 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Patrans - Website Rent Car ",
+    des: "Patrans is an easy-to-use car rental platform, offering a wide selection of vehicles at competitive prices.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/speechlessmind.com",
+    link: "https://patratransportasinusantara.speechlessmind.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Info Healing - Travel Website",
+    des: "Info Healing is a travel site that inspires you to discover the best healing destinations.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://infohealing.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Weserve",
+    des: "A REAL Software-as-a-Service app a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "SpeechlessMind - Course & Product Digital",
+    des: "SpeechlessMind is an innovative platform that offers courses and digital products for self-development and skills.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://speechlessmind.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Adrian exceeded all expectations. He delivered a sleek, high-performing website that aligned perfectly with our brand vision. His attention to detail and responsiveness made the entire process seamless.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Adrian brought clarity and structure to a complex web project. His ability to break down technical challenges and communicate solutions clearly was a game changer. I’d highly recommend him to anyone serious about quality.",
+    name: "Samantha Lee",
+    title: "Founder of Nova Creative Studio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From concept to launch, Adrian demonstrated not only technical skill but a deep understanding of user experience. The final product was clean, intuitive, and delivered ahead of schedule.",
+    name: "Daniel Chen",
+    title: "COO of BrightEdge Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Adrian transformed our outdated website into a modern platform that’s fast, secure, and visually stunning. His collaborative spirit and design sense really helped elevate our digital presence.",
+    name: "Rachel Park",
+    title: "Marketing Lead at Horizon Ventures",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We approached Adrian with just an idea and he brought it to life with professionalism and creativity. His ability to handle both front-end and back-end development made the entire process efficient and enjoyable.",
+    name: "Leo Martinez",
+    title: "Product Manager at TechNova",
   },
 ];
 
@@ -173,22 +174,22 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "UIX Designer",
+    desc: "As a UIX Designer, I contribute to the development of web-based platforms using Vue.js, improving interactivity and the overall user experience.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Fullstack Web Development",
+    desc: "Designed and developed fullstack web applications with seamless integration between front-end and back-end using modern technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "Led the development of a custom web application for a client, from initial concept to deployment, ensuring a responsive and user-friendly experience.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -205,13 +206,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/sfauzi"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/sfauzi"
   },
 ];
